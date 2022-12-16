@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "name": "cisco-starter-repo",
+  "description": "Jumping off point for Cisco's backend Forage program",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnvitaKn/cisco-starter-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnvitaKn/cisco-starter-repo/issues"
+  },
+  "homepage": "https://github.com/AnvitaKn/cisco-starter-repo#readme"
+}
