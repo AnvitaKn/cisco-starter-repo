@@ -1,0 +1,22 @@
+.Exhibit {
+    padding: 20px;
+    margin: 0.5vw;
+    text-align: center;
+    color: #002933;
+    background-color: #00b8e6;
+    border: 0.25vw solid #585127;
+  }
+
+  .Heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+  }
+
+  .Content{
+    text-align: center;
+    font-weight: bold;
+    border: 0.25vw #990033;
+    color : #ff809f;
+    background-color: #cc3300;
+
+  }
