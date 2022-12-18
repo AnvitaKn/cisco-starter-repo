@@ -1,14 +1,35 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';*/
 import './App.css';
 
+function Exhibit({ children, heading }) {
+  return (
+    <div className="exhibit">
+      <h1>{heading}</h1>
+      {children}
+    </div>
+  );
+}
+
 function App() {
+
+  return (
+    <Exhibit heading="My Exhibit">
+      <p>Some exhibit content</p>
+      <p>More exhibit content</p>
+    </Exhibit>
+  );
+  
   return (
     <div className="App">
-      <header className="App-header">
+      <div class="banner">
+        <h1 class="banner-title">Site Title</h1>
+      </div>
+
+     {/*  <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
+        </p> */}
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,9 +38,10 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      {/* </header> */}
     </div>
   );
 }
+
 
 export default App;
