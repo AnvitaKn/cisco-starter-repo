@@ -11,15 +11,16 @@ function Exhibit({ children, heading }) {
 }
 
 function App() {
-
   return (
     <Exhibit heading="My Exhibit">
-      <p>Some exhibit content</p>
-      <p>More exhibit content</p>
-    </Exhibit>
+    <p>Testing Exhibit</p>
+    <p>Need to make changes to design</p>
+  </Exhibit>
   );
-  
-  return (
+}
+
+function App(){
+  return(
     <div className="App">
       <div class="banner">
         <h1 class="banner-title">Site Title</h1>
