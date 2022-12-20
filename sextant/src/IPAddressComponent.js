@@ -7,7 +7,8 @@ class IPAddressComponent extends React.Component {
     super(props);
 
     this.state = {
-      ipAddress: null
+    url: props.url,
+    ipAddress: null
     };
   }
 
@@ -42,3 +43,6 @@ import { render } from 'react-dom';
 import IPAddressComponent from './IPAddressComponent';
 
 render(<IPAddressComponent type="ipv4" />, document.getElementById('root'));
+
+
+export default IPAddressComponent;
